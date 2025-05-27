@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: cheerchat-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: COHERE_API_KEY
+        value: 4AmcPf01LLpSJhRLxcXsLST1vN4OI6iCZD95j50x
